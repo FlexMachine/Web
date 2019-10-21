@@ -1,0 +1,257 @@
+.block-example {
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+
+
+/*
+NAV
+*/
+.nav-wrapper {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.logo {
+    font-size: 27px;
+    color: #222222;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+#btn {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.navigation {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 120px;
+    padding-top: 50px;
+    
+}
+.navigation_link {
+    color: #222222;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.navigation_link:hover,.navigation_link:active,.navigation_link:focus {
+    color: #f21889;
+    text-decoration: none;
+}
+.cart {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: darkgrey;
+    position: relative;
+}
+.cart:hover, .cart:active, .cart:focus {
+   color: #f21889;
+}
+
+
+/*
+HEADER
+*/
+
+.header {
+    height: 650px;
+    background-color: gray;
+    background-image: url(img/Slider_.png)
+}
+.header_content{
+    width: 400px;
+}
+/*.header_img {
+    padding-bottom: 500px;
+}*/
+.header_titile {
+    color: black;
+    font-size: 30px;
+    line-height: 1.25;
+    margin-left: 100px;
+    padding-top: 260px;
+}
+#palka {
+    padding-right: 100px;
+}
+/*
+AFTER HEADER
+*/
+/*.after_header {
+    height: 600px;
+    width: 600px;
+     
+}*/
+.content {
+    padding-top: 100px;
+    width: 1130px;
+    height: 910px;
+}
+.photo1 {
+    float: left;
+    width: 300px;
+    display: inline-block;
+}
+.photo2 {
+    float: right;
+    width: 200px;
+    margin-right: 360px;
+    display: inline-block;
+}
+.photo3 {
+    float:right;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    clear: right;
+    margin-right: 360px;
+    margin-bottom: 350px;
+}
+.photo4 {
+    float: left;
+    
+}
+
+/* Products */
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title {
+    padding-top: 60px;
+    font-size: 30px;
+    color:black;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align:center;
+    font-weight: 500;
+}
+.subtitle {
+    font-size: 12px;
+    color:black;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+
+.button-outline {
+  border-color: rgb(241, 109, 127);
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  height: 48px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  background-color: hotpink;
+  line-height: 1.5;
+  padding-top: 12px;
+  width: 220px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+    
+}
+
+.button-outline: hover {
+    color :hotpink;
+    text-decoration: none;
+}
+
+.button_account {
+  border-color: rgb(241, 109, 127);
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  height: 48px;
+  width: 220px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  background-color: hotpink;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+    margin-left: 10px;
+}
+
+/*CARD */
+
+.card {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card_image {
+    margin-bottom: 5px;  
+}
+
+
+.card_title {
+    color: #222;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card_price {
+    font-size: 13px;
+    color: hotpink;
+}
+
+/* Banner */
+.banner {
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-right: auto;
+}
+
+/* ADV - BLOCK*/
+
+.block-adv {
+    margin-top : 100px; 
+    height: 440px;
+    background-image: url(img/Blog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container {
+    
+}
+.title1 {
+    margin-right: 550px;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+.title-2 {
+    text-align: right;
+    font-size: 20px;
+}
+
+.btn {
+    
+    height: 35px;
+  color: white;
+  background-color: hotpink;
+  line-height: 1.5;
+}
+
+/*Footer*/
+
+.footer {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
